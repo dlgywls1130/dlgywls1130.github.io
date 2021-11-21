@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyojin</title>
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+
+
+
+    <!--link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+
+    <!--script-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+
+</head>
+
+<body>
+<!--home backgroud-->
+<div class="home_backgorund">        
+    <div class="noite"></div>
+    <div class="constelacao"></div>
+    <div class="lua">
+        <div class="textura"></div>
+    </div>
+</div>
+
+<!--navbar-->
+<nav id="navbar">
+    <div class="navbar__logo">
+        <img alt="logo" src="../images/logo_1.png">
+    </div>
+    <ul class="navbar__menu">
+        <li class="menu__item" data-link="#home">Home</li>
+        <li class="menu__item" data-link="#about">About</li>
+        <li class="menu__item" data-link="#experience">Experience</li>
+        <li class="menu__item" data-link="#skill">Skills</li>
+        <li class="menu__item" data-link="#portfolio">Work</li>
+        <li class="menu__item" data-link="#contact">Contact</li>
+    </ul>
+<!-- Toggle button -->
+<button class="navbar__toggle-btn">
+    <i class="fas fa-bars"></i>
+  </button>
+</nav>
+
+<!--Home-->
+<section id="home" >    
+    <div class="home__container">
+        <div class="main__title">
+            <div class="starTitle">Hello,</div>
+            <div class="starTitle">I'm Front-end</div>
+            <div class="starTitle">Developers</div>
+        </div>
+        <ul class="main__icon">
+            <li class="main__icon_git">
+                <a href="https://github.com/dlgywls1130" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="main__icon_blog">
+                <a href="https://www.notion.so/10466f5ff20c47038c4d535e3ed4994e" target="_blank"><i class="fab fa-blogger"></i></a>
+            </li>
+            <li class="main__icon_contact">
+                <i class="fas fa-envelope"></i>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!--About-->
+<seciton id="about">
+    <div class="about_content">
+        <div class="about_wrapper">
+            <div class="about__avatar">
+                <img src="../images/profile.JPG">
+            </div>
+            <div class="about__content">
+                <div class="about__title">One day or day one. It's your choice.</div>
+                <ul class="about__subcontent">
+                    <li>
+                        <i class="fas fa-user-circle"></i><span>Hyojin.LEE</span>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i><span>hyojin_lee11@naver.com</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-github-square"></i><span>https://github.com/dlgywls1130</span>
+                    </li>
+                </ul>
+                <div class="about__description">
+                    <p>안녕하세요! 디자이너에서 Front-end 개발자를 준비중인 이효진입니다. 
+                    <br>회사에 지원하면서 가장 중요한 것은 그 회사가 내게 어떤 의미로 다가오는지가 중요하다고 생각합니다. 
+                    <br>가장 중요한 것은 제가 일하고 싶어 하고 즐거움을 느끼는 분야를 다루는 회사인가 하는 점입니다.
+                    <br>처음 웹 퍼블리싱을 접하고 아무것도 모르고 시작하여 어려웠지만 밤을 새우고,
+                    <br>주말에도 공부하며 제작되는 홈페이지를 보며 성취감은 물론 즐겁다는 느낌을 받았습니다.
+                    <br>웹 분야는 저에게 개발에 대한 재미와 진로에 대한 확신을 주었고,
+                    <br>누구나 보다 도전적이고 제 능력을 발휘할 수 있는 회사에서 일하고 싶습니다.
+                    <br>남들보다 빠르게 뛰어가지는 못하지만, 마라톤처럼 꾸준히 포기하지 않으려 하고 있습니다.</p>
+                </div>
+                <ul class="about__tag">
+                    <li class="about__tag__design">
+                        #Web design
+                    </li>
+                    <li class="about__tag__publishing">
+                        #Publishing
+                    </li>
+                    <li class="about__tag__frontend">
+                        #Frontend
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</seciton>
+
+<!--experince-->
+<section id="experience">
+    <div class="section_common">
+        <div class="contain_title">Experience</div>
+        <div class="experience_table_wrap">
+            <div class="experience_table">
+                <div class="experience_table_date">2021.06~</div>
+                <div class="experience_table_company">연세대학교의료원<span class="experience_table_company_span">산학협력단</span></div>
+                <div class="experience_table_positin">Web Publising</div>
+                <div class="experience_table_description">Save-U project
+                    <span class="experience_table_description_span">-AI기반 ICU환자 위험도 예측 솔루션 개발과 검증 및 사업화 운영</span>
+                </div>
+            </div>
+            <div class="experience_table">
+                <div class="experience_table_date">2021.01</div>
+                <div class="experience_table_company">데이즈웨어</span></div>
+                <div class="experience_table_positin">Web Design & Publising</div>
+                <div class="experience_table_description">홈페이지 디자인 및 퍼블리싱
+                    <span class="experience_table_description_span">-Hompage Web Publising</span>
+                </div>
+            </div>
+            <div class="experience_table experience_table_three">
+                <div class="experience_table_date">2019.11</div>
+                <div class="experience_table_company">태왕파트너스</div>
+                <div class="experience_table_positin">Web Publising</div>
+                <div class="experience_table_description">홈페이지 제작
+                    <span class="experience_table_description_span">-HTML/CSS이용하여 홈페이지 제작</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--skills-->
+<section id="skill">
+    <div class="section_common">
+        <div class="contain_title">Skills</div>
+        <div class="skill_wrapper">
+            <div class="skill_familiar">
+                <div class="skill_group_title">
+                    Familiar
+                </div>
+                <div class="skill_group">
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/html.png"> 
+                        </div>
+                        <div class="skill_img_title"> HTML5 </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/css.png"> 
+                        </div>
+                        <div class="skill_img_title"> CSS3 </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/js.png">
+                        </div>
+                        <div class="skill_img_title"> Javascript </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill_tried">
+                <div class="skill_group_title">Tried</div>
+                <div class="skill_group">
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/python.png"> 
+                        </div>
+                        <div class="skill_img_title"> Python</div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                                <img src="../images/react.png"> 
+                        </div>
+                        <div class="skill_img_title"> React</div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                                <img src="../images/vue.png"> 
+                        </div>
+                        <div class="skill_img_title"> Vue</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill_tool">
+                <div class="skill_group_title">Tool</div>
+                <div class="skill_group">
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/vsc.png">
+                        </div> 
+                        <div class="skill_img_title">Visual Studio Code</div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/pycharm.png">
+                        </div>
+                        <div class="skill_img_title">PyCharm</div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/git.png">
+                        </div>
+                        <div class="skill_img_title">Git</div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/zeplin.png"> 
+                        </div>
+                    <div class="skill_img_title">Zeplin</div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills_icon">
+                            <img src="../images/adobe.png"> 
+                        </div>
+                        <div class="skill_img_title">Adobe</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--work-->
+
+<section id="portfolio">
+    <div class="section_common">
+        <div class="portfolio_title">Project</div>
+        <div class="portfolio_wrapp">
+            <div class="category_button">
+                <button type="button" data-filter="*">All</button>
+                <button type="button" data-filter="HTML/CSS">HTML/CSS</button>
+                <button type="button" data-filter="JavaScript">JavaScript</button>
+                <button type="button" data-filter="Vue">Vue.js</button>
+            </div>
+            <div class="portfolio_group">
+                    <a href="../html/portfolio1.html" class="portfolio" data-type="HTML/CSS">
+                        <img src="../images/portfolio.png" alt="portfolio">
+                    </a>
+                    <a href="../html/calendar.html" class="portfolio" data-type="Vue">
+                        <img src="../images/calendar.png" alt="calendar">
+                    </a>
+                    <a href="../html/groupWare.html"  class="portfolio" data-type="JavaScript">
+                       <img src="../images/groupware.png" alt="Groupware">
+                    </a>
+                    <a href="../html/vass.html" class="portfolio" data-type="HTML/CSS">
+                        <img src="../images/vass.png"  alt="vass">
+                    </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact-->
+
+<section id="contact">
+    <div class="section_common">
+        <div class="portfolio_title">Contact</div>
+        <div class="contact_email">Email:
+            <span class="contact_email_adress">hyojin_lee11@naver.com</span>
+        </div>
+        <ul class="contact__icon">
+            <li class="main__icon_git">
+                <a href="https://github.com/dlgywls1130"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="main__icon_blog">
+                <a href="https://www.notion.so/10466f5ff20c47038c4d535e3ed4994e"><i class="fab fa-blogger"></i></a>
+            </li>
+            <li class="main__icon_contact">
+                <i class="fas fa-envelope"></i>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<button class="arrow-up">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+    <!--js-->
+    <script src="../js/main.js" defer></script>
+
+</body>
+
+</html>
