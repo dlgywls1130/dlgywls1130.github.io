@@ -771,7 +771,7 @@ section {
   display: block;
 }
 
-@media only screen and (min-width: 760px) and (max-width:1280px) {
+@media only screen and (min-width: 760px) and (max-width: 1280px) {
   .navbar__toggle-btn {
     display: block;
     padding: 0.9rem 0;
@@ -858,7 +858,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:1rem;
+    padding: 1rem;
   }
 
   .skill_group {
@@ -897,10 +897,9 @@ section {
     height: auto;
   }
 
-  .contain_title{
-    1rem
+  .contain_title {
+    padding: 1rem;
   }
-
 }
 
 @media screen and (max-width: 420px) {
