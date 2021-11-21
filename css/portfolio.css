@@ -225,3 +225,11 @@ a {
 .portfolio_content_info_description {
   width: 75%;
 }
+
+@media screen and (max-width: 720px) {
+  .aside_menu {
+    transform: rotate(0deg);
+    top: 5%;
+    left: 10%;
+  }
+}

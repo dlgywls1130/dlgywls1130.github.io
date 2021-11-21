@@ -771,7 +771,7 @@ section {
   display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 760px) and (max-width:1280px) {
   .navbar__toggle-btn {
     display: block;
     padding: 0.9rem 0;
@@ -803,7 +803,7 @@ section {
   }
 
   .home__container {
-    padding: 18rem 0 12rem 2rem;
+    padding: 18rem 0 12rem 0rem;
     text-align: center;
   }
 
@@ -821,7 +821,7 @@ section {
   }
 
   .about__content {
-    padding: 4rem;
+    padding: 1.5rem;
   }
 
   #skill,
@@ -857,6 +857,8 @@ section {
   .skill_wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding:1rem;
   }
 
   .skill_group {
@@ -864,6 +866,10 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     margin-right: 1rem;
+  }
+
+  .skill_group_title {
+    text-align: center;
   }
 
   .skills {
@@ -880,5 +886,70 @@ section {
   .skill_group,
   .skill_tool {
     margin-bottom: 1rem;
+  }
+
+  .portfolio_group {
+    justify-content: center;
+  }
+
+  .portfolio img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contain_title{
+    1rem
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .experience_table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience_table_company {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .experience_table_description {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .experience_table_positin {
+    width: 100%;
+  }
+
+  .about__title,
+  .about__description p {
+    padding: 0.2rem;
+  }
+
+  .about__tag {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__tag li {
+    text-align: center;
+  }
+
+  .about__tag__design,
+  .about__tag__publishing {
+    margin-bottom: 0.5rem;
+  }
+
+  .category_button {
+    flex-direction: column;
+  }
+
+  .category_button button {
+    margin-bottom: 0.5rem;
   }
 }
