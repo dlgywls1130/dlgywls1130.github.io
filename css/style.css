@@ -771,7 +771,7 @@ section {
   display: block;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .navbar__toggle-btn {
     display: block;
     padding: 0.9rem 0;
@@ -796,6 +796,24 @@ section {
 
   #navbar.navbar--dark {
     padding: 16px;
+  }
+
+  .starTitle {
+    font-size: 40px;
+  }
+
+  .home__container {
+    padding: 18rem 0 12rem 2rem;
+    text-align: center;
+  }
+
+  .main__icon {
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .experience_table {
+    font-size: 12px;
   }
 
   .about_wrapper {
@@ -831,5 +849,36 @@ section {
 
   .experience_table_description {
     width: 30%;
+  }
+  #portfolio {
+    height: auto;
+  }
+
+  .skill_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill_group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill_img_title {
+    margin-top: 1rem;
+  }
+
+  .skill_familiar,
+  .skill_group,
+  .skill_tool {
+    margin-bottom: 1rem;
   }
 }
