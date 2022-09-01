@@ -363,7 +363,7 @@ button {
 
 .starTitle.starTitle2 span {
   font-weight: 800;
-  text-shadow: #fc0 5px 0 0px;
+  text-shadow: #dee2e6 5px 0 0px;
 }
 
 .starTitle3 {
@@ -1301,7 +1301,7 @@ width: 50%;
   }
 
   .starTitle {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .about__contents{
@@ -1309,7 +1309,7 @@ width: 50%;
   }
 
   .home__container {
-    padding: 5rem 2rem;
+    padding: 7rem 2rem;
     text-align: center;
     justify-content: center;
   }
@@ -1329,6 +1329,8 @@ width: 50%;
     top: 90%;
     left: 50%;
     transform: translate(-50%, 0);
+    width: 200px;
+    height: 200px;
   }
 
   #skill,
@@ -1352,6 +1354,7 @@ width: 50%;
 
   .about__content {
     padding: 1.5rem;
+    width: 100%;
   }
 
   .about__title,
@@ -1367,6 +1370,10 @@ width: 50%;
 
   .about__tag li {
     text-align: center;
+    margin-right: 0.2rem;
+    padding: 0.25rem 0.5rem;
+    color: #fff;
+    width: calc(100% / 3 );
   }
 
   .about__tag__design,
@@ -1460,11 +1467,13 @@ width: 50%;
 
   .portfolio img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    overflow: hidden;
   }
 
   .contain_title {
     padding: 1rem;
+    font-size: 1.5rem;
   }
 
   .experience_table {
@@ -1495,5 +1504,56 @@ width: 50%;
 
   .category_button button {
     margin-bottom: 0.5rem;
+  }
+
+  .floating2{
+    top:50px;
+    left:85%;
+  }
+
+  .floating1{
+    top:0px;
+    left:72%;
+  }
+
+  .floating3{
+    bottom:-10px;
+    left:0;
+  }
+
+  .experience_table_date{
+    width:100%;
+  }
+
+  .experience_table_description{
+    flex-direction:column;
+  }
+
+  .experience_table div{
+    border-bottom:1px solid #e7e7e7;
+    margin-bottom: 0.25rem;
+    padding:0.25rem;
+  }
+
+  .experience_table div:last-child{
+    border-bottom:none;
+    margin-bottom:0;
+  }
+
+  .portfolio_group{
+    display: flex;
+    width: 100%;
+  }
+
+  .modal_description li{
+    flex-direction: column;
+  }
+
+  .description_title{
+    flex:none;
+  }
+
+  .modal-body{
+    align-items: flex-start;
   }
 }
